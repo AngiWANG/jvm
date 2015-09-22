@@ -1,6 +1,8 @@
 package com.angi.jvm.chapter3;
 
 /**
+ * 大对象直接进入老年代
+ * 
  * VM Args: <br/>
  * -verbose:gc -Xms20m -Xmx20m -Xmn10m -XX:SurvivorRatio=8 -XX:+PrintGCDetails -XX:PretenureSizeThreshold=3145728
  * 

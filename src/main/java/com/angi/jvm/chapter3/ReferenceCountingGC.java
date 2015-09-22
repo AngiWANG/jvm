@@ -1,9 +1,11 @@
 package com.angi.jvm.chapter3;
 
 /**
+ * 引用计数算法
+ * 
  * VM Args:-XX:+PrintGCDetails
  * 
- * objA和 objB会不会被GC呢？
+ * objA和 objB会不会被GC呢？会
  * 
  * @author Angi
  * 
